@@ -13,7 +13,7 @@ CORS(app)
 
 # ---- CONFIG ----
 IMG_SIZE = (128, 128)
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "plant_disease_model.keras")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "plant_disease_model.tflite")
 CLASS_PATH = os.path.join(os.path.dirname(__file__), "class_names.json")
 
 # ---- GLOBALS (lazy load) ----
